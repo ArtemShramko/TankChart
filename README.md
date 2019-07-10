@@ -1,8 +1,10 @@
 Mobile tank chart for horizontal cylindrical fuel tanks supporting all common standard sizes in use across the US. 
 
-Tested on iOS (iPad 2018, iPad mini 2, iPhone SE, iPhone 8, iPhone X), but should work on Android.
+Tested on iOS (iPad 2018, iPad mini 2, iPhone SE, iPhone 8, iPhone X). Never tested, but should work on Android.
 
-If you want to use the metric system - adjust helpers.js. (tankData.js that holds the list of tank sizes must also be adjusted)
+If you want to use the metric system - adjust helpers.js. (tankData.js that holds the list of tank sizes must also be adjusted).
+
+Helper funcitons are written with extendability in mind. tankData.js can easily be substituted with a better data source, or user input.
 
 To do: 
 
