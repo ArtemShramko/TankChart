@@ -1,0 +1,60 @@
+import { StyleSheet } from 'react-native';
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    flexDirection: 'column',
+    padding: 20,
+    paddingTop: 50,
+    paddingBottom: 50,
+    justifyContent: 'center',
+    alignItems: 'stretch',
+  },
+  inputLiquidLevelSection: {
+    flex: 0,
+  },
+  inputTankSizeSection: {
+    flex: 3,
+    padding: 1,
+    flexDirection: 'row',
+    // alignItems: 'stretch',
+    //  margin: 5,
+    // justifyContent: 'top',
+    alignSelf: 'center',
+  },
+  mainGrid: {
+    flex: 1,
+    flexDirection: 'row'
+  },
+  tankStats: {
+    flex: 4,
+    borderWidth: 1,
+    borderColor: '#48BBEC',
+    borderRadius: 8,
+    //color: '#48BBEC',
+    // width: 150,
+    fontSize: 19,
+    margin: 3,
+    textAlign: 'center',
+    alignSelf: 'center',
+    backgroundColor: 'whitesmoke',
+  },
+  fluidLevel: {
+    flex: 3,
+    borderWidth: 1,
+    // padding: 3,
+    // margin: 5,
+    //width: 100,
+    borderRadius: 13,
+    fontSize: 20,
+    textAlign: 'center',
+    alignSelf: 'center',
+  },
+  text: {
+    backgroundColor: 'whitesmoke',
+    color: '#4A90E2',
+    fontSize: 26,
+    fontWeight: 'bold',
+    padding: 3,
+    textAlign: 'center',
+  },
+});
