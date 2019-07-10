@@ -2,13 +2,13 @@ Mobile tank chart for horizontal cylindrical fuel tanks supporting all common st
 
 Tested on iOS (iPad 2018, iPad mini 2, iPhone SE, iPhone 8, iPhone X). Never tested, but should work on Android.
 
-If you want to use the metric system - adjust helpers.js. (tankData.js that holds the list of tank sizes must also be adjusted).
+If you want to use the metric system, just adjust app.js, no need to touch helpers.js. calculateLiquidVolume is designed to output volume unit agnostic. If you feed it parsecs - it will return cubic parsecs. The (tankData.js that holds the list of tank sizes must also be adjusted to feed metric data to helpers.js).
 
-Helper funcitons are written with extendability in mind. tankData.js can easily be substituted with a better data source, or user input.
+Helper functions are written with extendability in mind. For example - tankData.js can easily be substituted with a better data source, or user input.
 
 To do: 
 
-Adjusting package.json to use specific framework versions (at leas one known warning came when I’ve retested on iOS using latest libraries.
+Resolve warning and the resulting slider bug in iOS, that came with framework update (gotta love it)
 
 …
 
