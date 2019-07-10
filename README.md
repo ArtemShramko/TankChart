@@ -1,3 +1,15 @@
+Mobile tank chart for horizontal cylindrical fuel tanks supporting all common standard sizes in use across the US. 
+
+Tested on iOS (iPad 2018, iPad mini 2, iPhone SE, iPhone 8, iPhone X), but should work on Android.
+
+If you want to use the metric system - adjust helpers.js. (tankData.js that holds the list of tank sizes must also be adjusted)
+
+To do: 
+
+Adjusting package.json to use specific framework versions (at leas one known warning came when I’ve retested on iOS using latest libraries.
+
+…
+
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
